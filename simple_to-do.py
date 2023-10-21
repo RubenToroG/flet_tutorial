@@ -12,4 +12,4 @@ def main(page: ft.Page):
         new_task, 
         ft.ElevatedButton('Add', on_click=add_clicked)]))  
 
-ft.app(target=main, view=ft.AppView.FLET_APP_WEB)
+ft.app(target=main, view=ft.AppView.FLET_APP)
